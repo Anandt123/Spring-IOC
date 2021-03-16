@@ -10,8 +10,7 @@ public class Longdrive {
 
 	public static void main(String[] args) {
 		
-		ApplicationContext container = new ClassPathXmlApplicationContext("config.xml");
-		//BeanFactory container = new XmlBeanFactory(new FileSystemResource("config.xml"));
+		BeanFactory container = new XmlBeanFactory(new FileSystemResource("config.xml"));
 		WithGF g1 = (WithGF)container.getBean("anand12");
 		g1.ondrive();
 		WithoutGF g2 = (WithoutGF)container.getBean("anand21");
