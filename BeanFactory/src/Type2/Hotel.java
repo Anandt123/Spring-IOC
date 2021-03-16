@@ -11,8 +11,7 @@ public class Hotel
 {
 	public static void main(String[] args) 
 	{	
-		ApplicationContext container = new ClassPathXmlApplicationContext("config.xml");
-		//BeanFactory container = new XmlBeanFactory(new FileSystemResource("config.xml"));
+		BeanFactory container = new XmlBeanFactory(new FileSystemResource("config.xml"));
 		
 		Lunch l1 = (Lunch) container.getBean("ak12");
 		l1.hadLunch();
