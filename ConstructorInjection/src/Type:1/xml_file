@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id = "address" class = "com.jspiders.pkg1.HomeAddress">
+<constructor-arg type="java.lang.String" value="Mysore"></constructor-arg>
+</bean>
+
+<bean id="address1" class="com.jspiders.pkg1.HomeAddress">
+<constructor-arg type="int" value="585436">
+</constructor-arg>
+</bean>
+
+<bean id ="address2" class = "com.jspiders.pkg1.WorkAddress">
+<constructor-arg value="Mumbai"></constructor-arg>
+</bean>
+
+</beans>
