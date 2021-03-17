@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id="anand12" class="com.jspiders.pkg3.WithGF">
+<constructor-arg value="Juice"></constructor-arg>
+</bean>
+
+<bean id="anand21" class="com.jspiders.pkg3.WithoutGF">
+<constructor-arg value="Bear"></constructor-arg>
+</bean>
+
+</beans>
